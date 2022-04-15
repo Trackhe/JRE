@@ -1,0 +1,8 @@
+{
+  "name": "JRE-Name",
+  "version": "1.0.0",
+  "autor": "autor",
+  "description": "",
+  "args": "-Xmx6144M -Xms1024M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -jar main.jar -e EULA=TRUE nogui",
+  "build": "false"
+}
